@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "prime",
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+
+  "production": {
+    "username": "pscprim1_customer",
+    "password": "Sax!frag3456",
+    "database": "pscprim1_customer",
+    "host": "pscprime.com",
+    "dialect": "mysql"
+  }
+}
